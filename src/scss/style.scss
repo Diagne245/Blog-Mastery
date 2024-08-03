@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import './bootstrap.scss';
+
+// to fix the issue with scrolling all the way to the top
+#home {
+  scroll-margin-top: 100px;
+}
+
+.header {
+  background: url('../assets/images/header-background.jpg') center center
+    no-repeat;
+  background-size: cover;
+
+  .contact-btn:hover {
+    color: $dark;
+    background-color: #fff;
+  }
+
+  .navbar {
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+#details1 {
+  scroll-margin-top: 80px;
+}
+
+.download {
+  background: url('../assets/images/header-background.jpg') center center
+    no-repeat;
+  background-size: cover;
+}
+
+.copyright {
+  .list-group-item:hover {
+    color: $secondary !important;
+  }
+}
+
+// Download email input group
+@media (max-width: 540px) {
+  .download .input-group-btn {
+    padding: 0.3rem !important;
+  }
+}
+
+.contactNav .navbar-collapse {
+  display: none !important;
+}
+
+@media (min-width: 995px) {
+  .download .row {
+    flex-direction: row !important;
+
+    img.img-fluid {
+      width: 100% !important;
+      margin: -8rem 0 0 !important;
+    }
+
+    .download-content {
+      align-items: flex-start !important;
+
+      p,
+      form {
+        width: 100% !important;
+      }
+      p {
+        text-align: left !important;
+      }
+    }
+  }
+}
+@media (min-width: 1199px) {
+  .row {
+    flex-direction: row !important;
+    .hero-content {
+      margin: 0;
+      text-align: left !important;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .modal-dialog {
+    min-width: 80%;
+    max-width: 80%;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 600px) {
+  .navbar {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+
+    .logo {
+      //@@@@@@@@@@@@@@@@
+      width: 30% !important;
+    }
+  }
+}
