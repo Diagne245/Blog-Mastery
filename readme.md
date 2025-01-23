@@ -1,8 +1,8 @@
-# Ebook Website
+# Blog Mastery
 
-Demo Link: &ensp; **https://ebook-website.onrender.com**
+Demo Link: &ensp; **https://blog-mastery.onrender.com**
 
-Bootstrap website for downloading a free E-book from the [Bootstrap 5 From Scratch ](https://www.udemy.com/course/bootstrap-from-scratch/?kw=bootstrap&src=sac&couponCode=LETSLEARNNOW) `Traversy Media` Udemy Course. This website has a light, business-oriented design.
+Bootstrap website for creating and managing a successfull blog. It features downloading a free E-book too. It is from the [Bootstrap 5 From Scratch ](https://www.udemy.com/course/bootstrap-from-scratch/?kw=bootstrap&src=sac&couponCode=LETSLEARNNOW) `Traversy Media` Udemy Course. This website has a light, business-oriented design.
 
 <img src="./src/assets/images/screenshot.png"/>
 
@@ -26,12 +26,11 @@ In order to customize this website, you need to install [Node.js](https://nodejs
 npm install
 ```
 
-This will install Webpack, Bootstrap, Sass and Font Awesome. To build your CSS files run:
+This will install Webpack, Bootstrap, Sass and Font Awesome. To build your production files run:
 
 ```bash
 npm run build
 ```
-Build files will go into the `dist/` folder.
 
 To watch your Sass files for changes, run:
 
