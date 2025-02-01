@@ -1,6 +1,6 @@
 # Blog Mastery
 
-Demo Link: &ensp; **https://blog-mastery.onrender.com**
+Demo Link: &ensp; **https://blog-mastery-ebook.netlify.app/**
 
 Bootstrap website for creating and managing a successfull blog. It features downloading a free E-book too. It is from the [Bootstrap 5 From Scratch ](https://www.udemy.com/course/bootstrap-from-scratch/?kw=bootstrap&src=sac&couponCode=LETSLEARNNOW) `Traversy Media` Udemy Course. This website has a light, business-oriented design.
 
